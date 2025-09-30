@@ -1,0 +1,70 @@
+.page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(206, 206, 206);
+
+    .container-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        background-color: rgb(0, 10, 100);
+        box-shadow: 0 3px 2px gray;
+        z-index: 10;
+        .home_style{
+            display: flex;
+            margin:0 5px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .home_style:hover{
+            cursor: pointer;
+            border: 5px solid rgb(240, 137, 19);
+            margin-left: 0px;
+        }
+        .buttons_containers{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .router_container{
+        padding: 0 150px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 40px;
+        padding: 20px 0;
+        height: 80px;
+        background-color: rgb(0, 5, 50);
+        box-shadow: 0 -2px 2px gray;
+        .img_style {
+            margin-left: 100px;
+            height: 100px;
+            width: 240px;
+            cursor: pointer;
+            border: 5px solid rgb(240, 137, 19);
+        }
+        .list_style li{
+            height: 22px;
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+        }
+        .list_style li::marker {
+            color: rgb(240, 137, 19);
+        }
+        .cop_mess {
+            display: flex;
+            position: absolute;
+            color: white;
+            font-size: 12px;
+            font-style: normal;
+            left: 800px;
+            bottom: 1px;
+        }
+    }
+}

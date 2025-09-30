@@ -1,0 +1,19 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: calc(100vh - 200px);
+
+    .landing_title {
+        display: flex;
+        margin-left: calc(52vh);
+        color: rgb(240, 137, 19);
+        font-size: 40px;
+    }
+    .introduction_landing {
+        display: flex;
+        margin: 50px;
+        font-size: 20px;
+        font-family: Verdana;
+    }
+}
